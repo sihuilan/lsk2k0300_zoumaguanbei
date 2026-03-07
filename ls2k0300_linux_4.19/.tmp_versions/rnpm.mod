@@ -1,0 +1,3 @@
+drivers/net/ethernet/mucse/rnpm/rnpm.ko
+drivers/net/ethernet/mucse/rnpm/rnpm_common.o drivers/net/ethernet/mucse/rnpm/rnpm_ethtool.o drivers/net/ethernet/mucse/rnpm/rnpm_lib.o drivers/net/ethernet/mucse/rnpm/rnpm_main.o drivers/net/ethernet/mucse/rnpm/rnpm_mbx.o drivers/net/ethernet/mucse/rnpm/rnpm_vu440.o drivers/net/ethernet/mucse/rnpm/rnpm_n10.o drivers/net/ethernet/mucse/rnpm/rnpm_pcs.o drivers/net/ethernet/mucse/rnpm/rnpm_mbx_fw.o drivers/net/ethernet/mucse/rnpm/rnpm_phy.o drivers/net/ethernet/mucse/rnpm/rnpm_sriov.o drivers/net/ethernet/mucse/rnpm/rnpm_compat.o drivers/net/ethernet/mucse/rnpm/rnpm_tc.o drivers/net/ethernet/mucse/rnpm/rnpm_ptp.o drivers/net/ethernet/mucse/rnpm/rnpm_debugfs.o drivers/net/ethernet/mucse/rnpm/rnpm_sysfs.o
+
