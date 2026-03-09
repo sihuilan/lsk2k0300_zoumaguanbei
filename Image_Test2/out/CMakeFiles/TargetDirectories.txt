@@ -1,0 +1,3 @@
+/home/lin/桌面/21./Example/Motherboard_Demo/Image_Test/out/CMakeFiles/Image_Test.dir
+/home/lin/桌面/21./Example/Motherboard_Demo/Image_Test/out/CMakeFiles/edit_cache.dir
+/home/lin/桌面/21./Example/Motherboard_Demo/Image_Test/out/CMakeFiles/rebuild_cache.dir
