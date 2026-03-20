@@ -1,3 +1,0 @@
-/home/wang/桌面/mydriver/Example/Motherboard_Demo/E02_07_brushless_electric_regulating_demo/out/CMakeFiles/rebuild_cache.dir
-/home/wang/桌面/mydriver/Example/Motherboard_Demo/E02_07_brushless_electric_regulating_demo/out/CMakeFiles/edit_cache.dir
-/home/wang/桌面/mydriver/Example/Motherboard_Demo/E02_07_brushless_electric_regulating_demo/out/CMakeFiles/E02_07_brushless_electric_regulating_demo.dir
