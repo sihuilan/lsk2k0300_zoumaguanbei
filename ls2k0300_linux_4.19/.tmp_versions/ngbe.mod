@@ -1,3 +1,0 @@
-drivers/net/ethernet/wangxun/ngbe/ngbe.ko
-drivers/net/ethernet/wangxun/ngbe/ngbe_main.o drivers/net/ethernet/wangxun/ngbe/ngbe_ethtool.o drivers/net/ethernet/wangxun/ngbe/ngbe_lib.o drivers/net/ethernet/wangxun/ngbe/ngbe_mbx.o drivers/net/ethernet/wangxun/ngbe/ngbe_sriov.o drivers/net/ethernet/wangxun/ngbe/ngbe_param.o drivers/net/ethernet/wangxun/ngbe/ngbe_phy.o drivers/net/ethernet/wangxun/ngbe/ngbe_procfs.o drivers/net/ethernet/wangxun/ngbe/ngbe_hw.o drivers/net/ethernet/wangxun/ngbe/ngbe_ptp.o drivers/net/ethernet/wangxun/ngbe/kcompat.o drivers/net/ethernet/wangxun/ngbe/ngbe_pcierr.o drivers/net/ethernet/wangxun/ngbe/ngbe_debugfs.o drivers/net/ethernet/wangxun/ngbe/ngbe_sysfs.o
-

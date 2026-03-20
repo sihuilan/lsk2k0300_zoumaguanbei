@@ -1,3 +1,0 @@
-drivers/net/ethernet/mucse/rnp/rnp.ko
-drivers/net/ethernet/mucse/rnp/rnp_main.o drivers/net/ethernet/mucse/rnp/rnp_common.o drivers/net/ethernet/mucse/rnp/rnp_ethtool.o drivers/net/ethernet/mucse/rnp/rnp_lib.o drivers/net/ethernet/mucse/rnp/rnp_mbx.o drivers/net/ethernet/mucse/rnp/rnp_pcs.o drivers/net/ethernet/mucse/rnp/rnp_n10.o drivers/net/ethernet/mucse/rnp/rnp_n500.o drivers/net/ethernet/mucse/rnp/rnp_phy.o drivers/net/ethernet/mucse/rnp/rnp_vu440.o drivers/net/ethernet/mucse/rnp/rnp_mbx_fw.o drivers/net/ethernet/mucse/rnp/rnp_sriov.o drivers/net/ethernet/mucse/rnp/rnp_compat.o drivers/net/ethernet/mucse/rnp/rnp_ptp.o drivers/net/ethernet/mucse/rnp/rnp_debugfs.o drivers/net/ethernet/mucse/rnp/rnp_sysfs.o
-
