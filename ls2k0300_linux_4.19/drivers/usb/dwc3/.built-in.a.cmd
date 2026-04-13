@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/built-in.a := rm -f drivers/usb/dwc3/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/usb/dwc3/built-in.a drivers/usb/dwc3/core.o drivers/usb/dwc3/trace.o drivers/usb/dwc3/host.o drivers/usb/dwc3/debugfs.o

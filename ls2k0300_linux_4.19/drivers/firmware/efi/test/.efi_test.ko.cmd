@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/test/efi_test.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/firmware/efi/test/efi_test.ko drivers/firmware/efi/test/efi_test.o drivers/firmware/efi/test/efi_test.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/firmware/efi/test/efi_test.ko

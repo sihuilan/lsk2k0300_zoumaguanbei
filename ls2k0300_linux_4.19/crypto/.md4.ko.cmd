@@ -1,0 +1,1 @@
+cmd_crypto/md4.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/md4.ko crypto/md4.o crypto/md4.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/md4.ko

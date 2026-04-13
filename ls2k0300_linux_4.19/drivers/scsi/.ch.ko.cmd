@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ch.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/scsi/ch.ko drivers/scsi/ch.o drivers/scsi/ch.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/scsi/ch.ko

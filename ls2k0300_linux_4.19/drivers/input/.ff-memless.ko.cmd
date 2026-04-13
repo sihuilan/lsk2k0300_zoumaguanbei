@@ -1,0 +1,1 @@
+cmd_drivers/input/ff-memless.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/input/ff-memless.ko drivers/input/ff-memless.o drivers/input/ff-memless.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/input/ff-memless.ko

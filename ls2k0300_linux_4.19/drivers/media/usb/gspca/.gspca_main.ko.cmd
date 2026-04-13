@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_main.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/media/usb/gspca/gspca_main.ko drivers/media/usb/gspca/gspca_main.o drivers/media/usb/gspca/gspca_main.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/media/usb/gspca/gspca_main.ko

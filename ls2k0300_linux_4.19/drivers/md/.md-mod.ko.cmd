@@ -1,0 +1,1 @@
+cmd_drivers/md/md-mod.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/md/md-mod.ko drivers/md/md-mod.o drivers/md/md-mod.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/md/md-mod.ko

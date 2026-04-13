@@ -1,0 +1,3 @@
+kernel/drivers/net/ethernet/mucse/rnp/rnp.ko
+kernel/drivers/net/ethernet/mucse/rnpm/rnpm.ko
+kernel/drivers/net/ethernet/mucse/rnpvf/rnpvf.ko

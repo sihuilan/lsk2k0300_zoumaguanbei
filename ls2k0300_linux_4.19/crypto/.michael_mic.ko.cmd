@@ -1,0 +1,1 @@
+cmd_crypto/michael_mic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/michael_mic.ko crypto/michael_mic.o crypto/michael_mic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/michael_mic.ko

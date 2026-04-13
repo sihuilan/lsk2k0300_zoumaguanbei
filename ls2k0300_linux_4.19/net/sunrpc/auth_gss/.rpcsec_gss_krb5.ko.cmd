@@ -1,0 +1,1 @@
+cmd_net/sunrpc/auth_gss/rpcsec_gss_krb5.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o net/sunrpc/auth_gss/rpcsec_gss_krb5.ko net/sunrpc/auth_gss/rpcsec_gss_krb5.o net/sunrpc/auth_gss/rpcsec_gss_krb5.mod.o ;  make -f ./arch/loongarch/Makefile.postlink net/sunrpc/auth_gss/rpcsec_gss_krb5.ko

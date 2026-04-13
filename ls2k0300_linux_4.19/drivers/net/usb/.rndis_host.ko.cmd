@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/rndis_host.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/net/usb/rndis_host.ko drivers/net/usb/rndis_host.o drivers/net/usb/rndis_host.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/net/usb/rndis_host.ko

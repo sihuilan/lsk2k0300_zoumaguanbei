@@ -1,0 +1,4 @@
+kernel/sound/pci/hda/snd-hda-codec.ko
+kernel/sound/pci/hda/snd-hda-codec-generic.ko
+kernel/sound/pci/hda/snd-hda-codec-realtek.ko
+kernel/sound/pci/hda/snd-hda-loongson.ko

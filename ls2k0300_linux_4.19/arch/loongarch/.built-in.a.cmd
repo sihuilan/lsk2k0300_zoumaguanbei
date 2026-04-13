@@ -1,0 +1,1 @@
+cmd_arch/loongarch/built-in.a := rm -f arch/loongarch/built-in.a; loongarch64-linux-gnu-ar rcSTPD arch/loongarch/built-in.a arch/loongarch/la64/built-in.a arch/loongarch/kernel/built-in.a arch/loongarch/mm/built-in.a arch/loongarch/net/built-in.a arch/loongarch/vdso/built-in.a

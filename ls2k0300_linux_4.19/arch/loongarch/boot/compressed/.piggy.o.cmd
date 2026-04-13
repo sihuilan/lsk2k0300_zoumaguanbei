@@ -1,0 +1,1 @@
+cmd_arch/loongarch/boot/compressed/piggy.o := loongarch64-linux-gnu-objcopy  --add-section=.image=arch/loongarch/boot/compressed/vmlinux.bin.z --set-section-flags=.image=contents,alloc,load,readonly,data arch/loongarch/boot/compressed/dummy.o arch/loongarch/boot/compressed/piggy.o

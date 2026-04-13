@@ -1,0 +1,1 @@
+cmd_crypto/blowfish_common.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/blowfish_common.ko crypto/blowfish_common.o crypto/blowfish_common.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/blowfish_common.ko

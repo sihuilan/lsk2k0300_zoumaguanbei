@@ -1,0 +1,8 @@
+kernel/drivers/net/ethernet/intel/e1000e/e1000e.ko
+kernel/drivers/net/ethernet/intel/igb/igb.ko
+kernel/drivers/net/ethernet/wangxun/ngbe/ngbe.ko
+kernel/drivers/net/ethernet/wangxun/txgbe/txgbe.ko
+kernel/drivers/net/ethernet/mucse/rnp/rnp.ko
+kernel/drivers/net/ethernet/mucse/rnpm/rnpm.ko
+kernel/drivers/net/ethernet/mucse/rnpvf/rnpvf.ko
+kernel/drivers/net/ethernet/xlnid/sdk/xlnid.ko

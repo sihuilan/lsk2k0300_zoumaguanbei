@@ -1,0 +1,169 @@
+i2c-boardinfo.o: drivers/i2c/i2c-boardinfo.c include/linux/kconfig.h \
+ include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-gcc.h include/linux/export.h include/linux/i2c.h \
+ include/linux/mod_devicetable.h include/linux/types.h \
+ include/uapi/linux/types.h arch/loongarch/include/asm/types.h \
+ include/asm-generic/int-ll64.h include/uapi/asm-generic/int-ll64.h \
+ arch/loongarch/include/uapi/asm/bitsperlong.h \
+ include/asm-generic/bitsperlong.h include/uapi/asm-generic/bitsperlong.h \
+ arch/loongarch/include/generated/uapi/asm/types.h \
+ include/uapi/asm-generic/types.h include/uapi/linux/posix_types.h \
+ include/linux/stddef.h include/uapi/linux/stddef.h \
+ include/linux/compiler_types.h \
+ arch/loongarch/include/generated/asm/posix_types.h \
+ include/uapi/asm-generic/posix_types.h include/linux/uuid.h \
+ include/uapi/linux/uuid.h include/linux/string.h \
+ include/linux/compiler.h arch/loongarch/include/asm/barrier.h \
+ arch/loongarch/include/asm/addrspace.h include/linux/const.h \
+ include/uapi/linux/const.h arch/loongarch/include/asm/loongarchregs.h \
+ include/linux/bits.h include/linux/linkage.h include/linux/stringify.h \
+ arch/loongarch/include/asm/linkage.h \
+ /opt/ls_2k0300_env/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include/larchintrin.h \
+ include/asm-generic/barrier.h include/linux/kasan-checks.h \
+ /opt/ls_2k0300_env/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include/stdarg.h \
+ include/uapi/linux/string.h arch/loongarch/include/asm/string.h \
+ include/linux/device.h include/linux/ioport.h include/linux/kobject.h \
+ include/linux/list.h include/linux/poison.h include/linux/kernel.h \
+ include/linux/bitops.h arch/loongarch/include/asm/bitops.h \
+ include/asm-generic/bitops/builtin-ffs.h \
+ include/asm-generic/bitops/builtin-fls.h \
+ include/asm-generic/bitops/builtin-__ffs.h \
+ include/asm-generic/bitops/builtin-__fls.h \
+ include/asm-generic/bitops/ffz.h include/asm-generic/bitops/fls64.h \
+ include/asm-generic/bitops/find.h include/asm-generic/bitops/sched.h \
+ include/asm-generic/bitops/hweight.h \
+ include/asm-generic/bitops/arch_hweight.h \
+ include/asm-generic/bitops/const_hweight.h \
+ include/asm-generic/bitops/atomic.h include/linux/atomic.h \
+ arch/loongarch/include/asm/atomic.h \
+ arch/loongarch/include/asm/cpu-features.h \
+ arch/loongarch/include/asm/cpu.h arch/loongarch/include/asm/cpu-info.h \
+ include/linux/cache.h include/uapi/linux/kernel.h \
+ include/uapi/linux/sysinfo.h arch/loongarch/include/asm/cache.h \
+ arch/loongarch/include/asm/cmpxchg.h include/linux/irqflags.h \
+ include/linux/typecheck.h arch/loongarch/include/asm/irqflags.h \
+ include/linux/build_bug.h include/asm-generic/atomic-long.h \
+ include/asm-generic/bitops/non-atomic.h \
+ include/asm-generic/bitops/lock.h include/asm-generic/bitops/le.h \
+ arch/loongarch/include/uapi/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h \
+ include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
+ include/uapi/linux/swab.h arch/loongarch/include/uapi/asm/swab.h \
+ include/linux/byteorder/generic.h \
+ include/asm-generic/bitops/ext2-atomic.h include/linux/log2.h \
+ include/linux/printk.h include/linux/init.h include/linux/kern_levels.h \
+ include/linux/sysfs.h include/linux/kernfs.h include/linux/err.h \
+ arch/loongarch/include/asm/errno.h \
+ arch/loongarch/include/generated/uapi/asm/errno.h \
+ include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
+ include/linux/mutex.h arch/loongarch/include/generated/asm/current.h \
+ include/asm-generic/current.h include/linux/thread_info.h \
+ include/linux/bug.h arch/loongarch/include/asm/bug.h \
+ arch/loongarch/include/asm/asm-bug.h \
+ arch/loongarch/include/uapi/asm/break.h include/asm-generic/bug.h \
+ include/linux/restart_block.h include/linux/time64.h \
+ include/linux/math64.h arch/loongarch/include/asm/div64.h \
+ include/asm-generic/div64.h include/uapi/linux/time.h \
+ include/linux/errno.h include/uapi/linux/errno.h \
+ arch/loongarch/include/asm/thread_info.h \
+ arch/loongarch/include/asm/processor.h include/linux/cpumask.h \
+ include/linux/threads.h include/linux/bitmap.h include/linux/sizes.h \
+ arch/loongarch/include/uapi/asm/ptrace.h include/linux/spinlock_types.h \
+ arch/loongarch/include/asm/spinlock_types.h \
+ include/asm-generic/qspinlock_types.h \
+ include/asm-generic/qrwlock_types.h include/linux/lockdep.h \
+ include/linux/rwlock_types.h include/linux/osq_lock.h \
+ include/linux/debug_locks.h include/linux/idr.h \
+ include/linux/radix-tree.h include/linux/preempt.h \
+ arch/loongarch/include/generated/asm/preempt.h \
+ include/asm-generic/preempt.h include/linux/rcupdate.h \
+ include/linux/bottom_half.h include/linux/rcutree.h \
+ include/linux/spinlock.h arch/loongarch/include/asm/spinlock.h \
+ arch/loongarch/include/generated/asm/qrwlock.h \
+ include/asm-generic/qrwlock.h arch/loongarch/include/asm/qspinlock.h \
+ arch/loongarch/include/asm/paravirt.h \
+ arch/loongarch/include/asm/kvm_para.h \
+ arch/loongarch/include/uapi/asm/kvm_para.h \
+ include/asm-generic/qspinlock.h include/linux/rwlock.h \
+ include/linux/spinlock_api_smp.h include/linux/rwlock_api_smp.h \
+ include/linux/gfp.h include/linux/mmdebug.h include/linux/mmzone.h \
+ include/linux/wait.h include/uapi/linux/wait.h include/linux/numa.h \
+ include/linux/seqlock.h include/linux/nodemask.h \
+ include/linux/pageblock-flags.h include/linux/page-flags-layout.h \
+ include/generated/bounds.h arch/loongarch/include/asm/sparsemem.h \
+ include/linux/mm_types.h include/linux/mm_types_task.h \
+ arch/loongarch/include/asm/page.h include/linux/pfn.h \
+ arch/loongarch/include/asm/io.h \
+ arch/loongarch/include/asm/pgtable-bits.h \
+ arch/loongarch/include/generated/asm/early_ioremap.h \
+ include/asm-generic/early_ioremap.h include/asm-generic/io.h \
+ include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
+ include/linux/fwnode.h include/linux/vmalloc.h include/linux/llist.h \
+ include/linux/rbtree.h include/linux/overflow.h \
+ include/uapi/linux/limits.h include/asm-generic/memory_model.h \
+ include/asm-generic/getorder.h include/linux/auxvec.h \
+ include/uapi/linux/auxvec.h arch/loongarch/include/uapi/asm/auxvec.h \
+ include/linux/rwsem.h arch/loongarch/include/generated/asm/rwsem.h \
+ include/asm-generic/rwsem.h include/linux/completion.h \
+ include/linux/uprobes.h arch/loongarch/include/asm/uprobes.h \
+ include/linux/notifier.h include/linux/srcu.h include/linux/workqueue.h \
+ include/linux/timer.h include/linux/ktime.h include/linux/time.h \
+ include/linux/time32.h include/linux/jiffies.h include/linux/timex.h \
+ include/uapi/linux/timex.h include/uapi/linux/param.h \
+ arch/loongarch/include/generated/asm/param.h include/asm-generic/param.h \
+ include/uapi/asm-generic/param.h arch/loongarch/include/asm/timex.h \
+ include/generated/timeconst.h include/linux/timekeeping.h \
+ include/linux/timekeeping32.h include/linux/debugobjects.h \
+ include/linux/rcu_segcblist.h include/linux/srcutree.h \
+ include/linux/rcu_node_tree.h arch/loongarch/include/asm/inst.h \
+ arch/loongarch/include/asm/asm.h \
+ arch/loongarch/include/uapi/asm/abidefs.h \
+ arch/loongarch/include/asm/ptrace.h \
+ arch/loongarch/include/uapi/asm/inst.h \
+ arch/loongarch/include/uapi/asm/bitfield.h \
+ arch/loongarch/include/asm/mmu.h include/linux/memory_hotplug.h \
+ include/linux/topology.h include/linux/smp.h \
+ arch/loongarch/include/asm/smp.h include/linux/percpu.h \
+ arch/loongarch/include/asm/percpu.h include/asm-generic/percpu.h \
+ include/linux/percpu-defs.h arch/loongarch/include/asm/topology.h \
+ include/asm-generic/topology.h \
+ arch/loongarch/include/asm/mach-la64/topology.h include/linux/uidgid.h \
+ include/linux/highuid.h include/linux/kobject_ns.h include/linux/stat.h \
+ arch/loongarch/include/generated/asm/stat.h \
+ include/uapi/asm-generic/stat.h include/uapi/linux/stat.h \
+ include/linux/kref.h include/linux/refcount.h include/linux/klist.h \
+ include/linux/pm.h include/linux/ratelimit.h include/linux/sched.h \
+ include/uapi/linux/sched.h include/linux/pid.h include/linux/rculist.h \
+ include/linux/sem.h include/uapi/linux/sem.h include/linux/ipc.h \
+ include/linux/rhashtable-types.h include/uapi/linux/ipc.h \
+ arch/loongarch/include/generated/uapi/asm/ipcbuf.h \
+ include/uapi/asm-generic/ipcbuf.h \
+ arch/loongarch/include/generated/asm/sembuf.h \
+ include/uapi/asm-generic/sembuf.h include/linux/shm.h \
+ include/uapi/linux/shm.h include/uapi/asm-generic/hugetlb_encode.h \
+ arch/loongarch/include/generated/asm/shmbuf.h \
+ include/uapi/asm-generic/shmbuf.h arch/loongarch/include/asm/shmparam.h \
+ include/linux/kcov.h include/uapi/linux/kcov.h include/linux/plist.h \
+ include/linux/hrtimer.h include/linux/timerqueue.h \
+ include/linux/seccomp.h include/uapi/linux/seccomp.h \
+ arch/loongarch/include/generated/asm/seccomp.h \
+ include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
+ arch/loongarch/include/asm/unistd.h \
+ arch/loongarch/include/uapi/asm/unistd.h include/asm-generic/unistd.h \
+ include/uapi/asm-generic/unistd.h include/linux/resource.h \
+ include/uapi/linux/resource.h \
+ arch/loongarch/include/generated/asm/resource.h \
+ include/asm-generic/resource.h include/uapi/asm-generic/resource.h \
+ include/linux/latencytop.h include/linux/sched/prio.h \
+ include/linux/signal_types.h include/uapi/linux/signal.h \
+ arch/loongarch/include/asm/signal.h \
+ arch/loongarch/include/uapi/asm/signal.h \
+ include/uapi/asm-generic/signal-defs.h \
+ arch/loongarch/include/uapi/asm/sigcontext.h \
+ arch/loongarch/include/uapi/asm/siginfo.h \
+ include/uapi/asm-generic/siginfo.h include/linux/task_io_accounting.h \
+ include/uapi/linux/rseq.h arch/loongarch/include/asm/device.h \
+ include/linux/pm_wakeup.h include/linux/rtmutex.h \
+ include/linux/irqdomain.h include/linux/irqhandler.h include/linux/of.h \
+ include/linux/property.h include/uapi/linux/i2c.h include/linux/slab.h \
+ include/linux/kasan.h drivers/i2c/i2c-core.h

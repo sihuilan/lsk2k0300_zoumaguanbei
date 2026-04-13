@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/uas.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/usb/storage/uas.ko drivers/usb/storage/uas.o drivers/usb/storage/uas.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/usb/storage/uas.ko

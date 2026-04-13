@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pwm-fan.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/hwmon/pwm-fan.ko drivers/hwmon/pwm-fan.o drivers/hwmon/pwm-fan.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/hwmon/pwm-fan.ko

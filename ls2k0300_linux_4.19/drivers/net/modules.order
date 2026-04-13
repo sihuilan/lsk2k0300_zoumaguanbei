@@ -1,0 +1,16 @@
+kernel/drivers/net/can/sja1000/sja1000.ko
+kernel/drivers/net/ethernet/intel/e1000e/e1000e.ko
+kernel/drivers/net/ethernet/intel/igb/igb.ko
+kernel/drivers/net/ethernet/wangxun/ngbe/ngbe.ko
+kernel/drivers/net/ethernet/wangxun/txgbe/txgbe.ko
+kernel/drivers/net/ethernet/mucse/rnp/rnp.ko
+kernel/drivers/net/ethernet/mucse/rnpm/rnpm.ko
+kernel/drivers/net/ethernet/mucse/rnpvf/rnpvf.ko
+kernel/drivers/net/ethernet/xlnid/sdk/xlnid.ko
+kernel/drivers/net/wireless/aic8800/aic8800_btlpm/aic8800_btlpm.ko
+kernel/drivers/net/wireless/aic8800/aic8800_fdrv/aic8800_fdrv.ko
+kernel/drivers/net/wireless/aic8800/aic8800_bsp/aic8800_bsp.ko
+kernel/drivers/net/usb/cdc_ether.ko
+kernel/drivers/net/usb/rndis_host.ko
+kernel/drivers/net/usb/usbnet.ko
+kernel/drivers/net/mdio.ko

@@ -1,0 +1,1 @@
+cmd_crypto/sha512_generic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/sha512_generic.ko crypto/sha512_generic.o crypto/sha512_generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/sha512_generic.ko

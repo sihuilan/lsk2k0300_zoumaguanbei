@@ -1,0 +1,2 @@
+kernel/drivers/char/raw.ko
+kernel/drivers/char/moxa/npreal2.ko

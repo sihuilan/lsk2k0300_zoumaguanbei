@@ -1,0 +1,1 @@
+cmd_crypto/cast5_generic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/cast5_generic.ko crypto/cast5_generic.o crypto/cast5_generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/cast5_generic.ko

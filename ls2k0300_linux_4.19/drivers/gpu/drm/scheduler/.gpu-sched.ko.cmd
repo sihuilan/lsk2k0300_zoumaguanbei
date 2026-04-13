@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/gpu/drm/scheduler/gpu-sched.ko drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu-sched.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/gpu/drm/scheduler/gpu-sched.ko
