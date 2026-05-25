@@ -1,0 +1,3 @@
+/home/lin/桌面/ljy/11aa新图形/project00000/out/CMakeFiles/project00000.dir
+/home/lin/桌面/ljy/11aa新图形/project00000/out/CMakeFiles/edit_cache.dir
+/home/lin/桌面/ljy/11aa新图形/project00000/out/CMakeFiles/rebuild_cache.dir
