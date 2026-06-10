@@ -1,1 +1,0 @@
-cmd_net/802/stp.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o net/802/stp.ko net/802/stp.o net/802/stp.mod.o ;  make -f ./arch/loongarch/Makefile.postlink net/802/stp.ko

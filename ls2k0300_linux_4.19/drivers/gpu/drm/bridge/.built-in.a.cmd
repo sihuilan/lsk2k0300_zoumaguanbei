@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/bridge/built-in.a := rm -f drivers/gpu/drm/bridge/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/gpu/drm/bridge/built-in.a drivers/gpu/drm/bridge/dumb-vga-dac.o drivers/gpu/drm/bridge/sii902x.o drivers/gpu/drm/bridge/lt8618.o drivers/gpu/drm/bridge/ti-tfp410.o drivers/gpu/drm/bridge/synopsys/built-in.a

@@ -1,1 +1,0 @@
-cmd_sound/pci/ymfpci/built-in.a := rm -f sound/pci/ymfpci/built-in.a; loongarch64-linux-gnu-ar rcSTPD sound/pci/ymfpci/built-in.a 

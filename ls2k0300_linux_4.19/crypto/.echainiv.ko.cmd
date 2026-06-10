@@ -1,1 +1,0 @@
-cmd_crypto/echainiv.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/echainiv.ko crypto/echainiv.o crypto/echainiv.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/echainiv.ko

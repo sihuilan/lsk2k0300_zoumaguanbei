@@ -1,1 +1,0 @@
-cmd_drivers/net/can/sja1000/sja1000.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/net/can/sja1000/sja1000.ko drivers/net/can/sja1000/sja1000.o drivers/net/can/sja1000/sja1000.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/net/can/sja1000/sja1000.ko

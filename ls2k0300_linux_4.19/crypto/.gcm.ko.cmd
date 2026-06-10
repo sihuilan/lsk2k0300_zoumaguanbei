@@ -1,1 +1,0 @@
-cmd_crypto/gcm.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/gcm.ko crypto/gcm.o crypto/gcm.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/gcm.ko

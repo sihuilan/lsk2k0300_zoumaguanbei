@@ -1,1 +1,0 @@
-cmd_arch/loongarch/boot/dts/loongson/built-in.a := rm -f arch/loongarch/boot/dts/loongson/built-in.a; loongarch64-linux-gnu-ar rcSTPD arch/loongarch/boot/dts/loongson/built-in.a arch/loongarch/boot/dts/loongson/seekfree_smart_car_pai_99.dtb.o

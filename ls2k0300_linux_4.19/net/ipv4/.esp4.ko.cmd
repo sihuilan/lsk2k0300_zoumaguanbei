@@ -1,1 +1,0 @@
-cmd_net/ipv4/esp4.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o net/ipv4/esp4.ko net/ipv4/esp4.o net/ipv4/esp4.mod.o ;  make -f ./arch/loongarch/Makefile.postlink net/ipv4/esp4.ko

@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/qxl/qxl.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/gpu/drm/qxl/qxl.ko drivers/gpu/drm/qxl/qxl.o drivers/gpu/drm/qxl/qxl.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/gpu/drm/qxl/qxl.ko

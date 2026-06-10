@@ -1,1 +1,0 @@
-cmd_drivers/usb/dwc3/dwc3-pci.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/usb/dwc3/dwc3-pci.ko drivers/usb/dwc3/dwc3-pci.o drivers/usb/dwc3/dwc3-pci.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/usb/dwc3/dwc3-pci.ko

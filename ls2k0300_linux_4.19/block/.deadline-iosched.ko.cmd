@@ -1,1 +1,0 @@
-cmd_block/deadline-iosched.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o block/deadline-iosched.ko block/deadline-iosched.o block/deadline-iosched.mod.o ;  make -f ./arch/loongarch/Makefile.postlink block/deadline-iosched.ko

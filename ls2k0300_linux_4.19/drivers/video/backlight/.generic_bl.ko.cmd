@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/generic_bl.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/video/backlight/generic_bl.ko drivers/video/backlight/generic_bl.o drivers/video/backlight/generic_bl.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/video/backlight/generic_bl.ko

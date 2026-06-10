@@ -1,1 +1,0 @@
-cmd_drivers/net/can/ls_can/built-in.a := rm -f drivers/net/can/ls_can/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/net/can/ls_can/built-in.a drivers/net/can/ls_can/lscan_olddma.o drivers/net/can/ls_can/lscan_platform.o

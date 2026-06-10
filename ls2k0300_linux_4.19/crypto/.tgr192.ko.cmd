@@ -1,1 +1,0 @@
-cmd_crypto/tgr192.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/tgr192.ko crypto/tgr192.o crypto/tgr192.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/tgr192.ko

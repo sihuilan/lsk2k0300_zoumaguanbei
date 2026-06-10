@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/radeon/radeon.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/gpu/drm/radeon/radeon.ko drivers/gpu/drm/radeon/radeon.o drivers/gpu/drm/radeon/radeon.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/gpu/drm/radeon/radeon.ko

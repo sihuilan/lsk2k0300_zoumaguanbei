@@ -1,1 +1,0 @@
-cmd_crypto/khazad.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/khazad.ko crypto/khazad.o crypto/khazad.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/khazad.ko

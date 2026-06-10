@@ -1,1 +1,0 @@
-cmd_drivers/spi/built-in.a := rm -f drivers/spi/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/spi/built-in.a drivers/spi/spi.o drivers/spi/spidev.o drivers/spi/spi-bitbang.o drivers/spi/spi-gpio.o drivers/spi/spi-ls.o drivers/spi/spi-ls-v1.o

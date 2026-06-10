@@ -1,1 +1,0 @@
-cmd_crypto/twofish_common.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/twofish_common.ko crypto/twofish_common.o crypto/twofish_common.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/twofish_common.ko

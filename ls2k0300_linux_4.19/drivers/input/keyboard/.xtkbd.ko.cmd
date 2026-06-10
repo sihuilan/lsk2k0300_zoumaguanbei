@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/xtkbd.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/input/keyboard/xtkbd.ko drivers/input/keyboard/xtkbd.o drivers/input/keyboard/xtkbd.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/input/keyboard/xtkbd.ko

@@ -1,1 +1,0 @@
-cmd_fs/isofs/isofs.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o fs/isofs/isofs.ko fs/isofs/isofs.o fs/isofs/isofs.mod.o ;  make -f ./arch/loongarch/Makefile.postlink fs/isofs/isofs.ko

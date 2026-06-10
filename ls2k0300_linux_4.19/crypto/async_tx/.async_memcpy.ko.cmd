@@ -1,1 +1,0 @@
-cmd_crypto/async_tx/async_memcpy.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/async_tx/async_memcpy.ko crypto/async_tx/async_memcpy.o crypto/async_tx/async_memcpy.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/async_tx/async_memcpy.ko

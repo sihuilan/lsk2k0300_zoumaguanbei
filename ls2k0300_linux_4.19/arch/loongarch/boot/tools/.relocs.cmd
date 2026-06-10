@@ -1,1 +1,0 @@
-cmd_arch/loongarch/boot/tools/relocs := gcc   -o arch/loongarch/boot/tools/relocs arch/loongarch/boot/tools/relocs_32.o arch/loongarch/boot/tools/relocs_64.o arch/loongarch/boot/tools/relocs_main.o   

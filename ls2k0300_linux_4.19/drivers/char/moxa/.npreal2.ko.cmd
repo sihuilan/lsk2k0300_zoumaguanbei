@@ -1,1 +1,0 @@
-cmd_drivers/char/moxa/npreal2.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/char/moxa/npreal2.ko drivers/char/moxa/npreal2.o drivers/char/moxa/npreal2.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/char/moxa/npreal2.ko

@@ -1,1 +1,0 @@
-cmd_crypto/deflate.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/deflate.ko crypto/deflate.o crypto/deflate.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/deflate.ko

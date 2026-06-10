@@ -1,1 +1,0 @@
-cmd_kernel/events/built-in.a := rm -f kernel/events/built-in.a; loongarch64-linux-gnu-ar rcSTPD kernel/events/built-in.a kernel/events/core.o kernel/events/ring_buffer.o kernel/events/callchain.o kernel/events/uprobes.o

@@ -1,1 +1,0 @@
-cmd_crypto/xor.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/xor.ko crypto/xor.o crypto/xor.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/xor.ko

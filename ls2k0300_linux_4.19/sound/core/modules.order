@@ -1,3 +1,0 @@
-kernel/sound/core/snd-hwdep.ko
-kernel/sound/core/snd-seq-device.ko
-kernel/sound/core/seq/snd-seq.ko

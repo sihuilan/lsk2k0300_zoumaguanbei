@@ -1,1 +1,0 @@
-cmd_drivers/usb/dwc2/built-in.a := rm -f drivers/usb/dwc2/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/usb/dwc2/built-in.a drivers/usb/dwc2/core.o drivers/usb/dwc2/core_intr.o drivers/usb/dwc2/platform.o drivers/usb/dwc2/params.o drivers/usb/dwc2/hcd.o drivers/usb/dwc2/hcd_intr.o drivers/usb/dwc2/hcd_queue.o drivers/usb/dwc2/hcd_ddma.o drivers/usb/dwc2/debugfs.o

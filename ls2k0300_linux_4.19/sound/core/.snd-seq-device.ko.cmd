@@ -1,1 +1,0 @@
-cmd_sound/core/snd-seq-device.ko := loongarch64-linux-gnu-ld -r  -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o sound/core/snd-seq-device.ko sound/core/snd-seq-device.o sound/core/snd-seq-device.mod.o ;  make -f ./arch/loongarch/Makefile.postlink sound/core/snd-seq-device.ko

@@ -1,1 +1,0 @@
-cmd_drivers/input/input-polldev.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/input/input-polldev.ko drivers/input/input-polldev.o drivers/input/input-polldev.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/input/input-polldev.ko

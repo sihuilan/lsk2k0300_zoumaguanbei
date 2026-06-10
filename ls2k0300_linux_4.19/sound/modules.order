@@ -1,8 +1,0 @@
-kernel/sound/core/snd-hwdep.ko
-kernel/sound/core/snd-seq-device.ko
-kernel/sound/core/seq/snd-seq.ko
-kernel/sound/pci/hda/snd-hda-codec.ko
-kernel/sound/pci/hda/snd-hda-codec-generic.ko
-kernel/sound/pci/hda/snd-hda-codec-realtek.ko
-kernel/sound/pci/hda/snd-hda-loongson.ko
-kernel/sound/hda/snd-hda-core.ko

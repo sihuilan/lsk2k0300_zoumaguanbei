@@ -1,1 +1,0 @@
-cmd_drivers/gpio/built-in.a := rm -f drivers/gpio/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/gpio/built-in.a drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-legacy.o drivers/gpio/gpiolib-devprop.o drivers/gpio/gpiolib-of.o drivers/gpio/gpiolib-sysfs.o drivers/gpio/gpiolib-acpi.o drivers/gpio/gpio-loongson.o drivers/gpio/gpio-ls2k.o

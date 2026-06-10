@@ -1,1 +1,0 @@
-cmd_sound/soc/loongson/built-in.a := rm -f sound/soc/loongson/built-in.a; loongarch64-linux-gnu-ar rcSTPD sound/soc/loongson/built-in.a sound/soc/loongson/ls-i2s.o sound/soc/loongson/ls-pcm.o sound/soc/loongson/ls-pcm-generic.o sound/soc/loongson/ls-sound.o

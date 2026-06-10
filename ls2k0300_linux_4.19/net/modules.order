@@ -1,7 +1,0 @@
-kernel/net/802/p8022.ko
-kernel/net/802/psnap.ko
-kernel/net/802/stp.ko
-kernel/net/ipv4/esp4.ko
-kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko
-kernel/net/llc/llc.ko
-kernel/net/bridge/bridge.ko

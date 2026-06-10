@@ -1,1 +1,0 @@
-cmd_net/llc/llc.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o net/llc/llc.ko net/llc/llc.o net/llc/llc.mod.o ;  make -f ./arch/loongarch/Makefile.postlink net/llc/llc.ko

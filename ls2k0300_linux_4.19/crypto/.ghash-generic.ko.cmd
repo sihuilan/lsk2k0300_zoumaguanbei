@@ -1,1 +1,0 @@
-cmd_crypto/ghash-generic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/ghash-generic.ko crypto/ghash-generic.o crypto/ghash-generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/ghash-generic.ko

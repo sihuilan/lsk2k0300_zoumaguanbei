@@ -1,1 +1,0 @@
-cmd_fs/fat/fat.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o fs/fat/fat.ko fs/fat/fat.o fs/fat/fat.mod.o ;  make -f ./arch/loongarch/Makefile.postlink fs/fat/fat.ko

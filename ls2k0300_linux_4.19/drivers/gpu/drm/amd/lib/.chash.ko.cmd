@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/amd/lib/chash.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/gpu/drm/amd/lib/chash.ko drivers/gpu/drm/amd/lib/chash.o drivers/gpu/drm/amd/lib/chash.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/gpu/drm/amd/lib/chash.ko

@@ -1,1 +1,0 @@
-cmd_drivers/char/raw.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/char/raw.ko drivers/char/raw.o drivers/char/raw.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/char/raw.ko

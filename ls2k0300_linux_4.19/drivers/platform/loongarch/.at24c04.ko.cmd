@@ -1,1 +1,0 @@
-cmd_drivers/platform/loongarch/at24c04.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/platform/loongarch/at24c04.ko drivers/platform/loongarch/at24c04.o drivers/platform/loongarch/at24c04.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/platform/loongarch/at24c04.ko

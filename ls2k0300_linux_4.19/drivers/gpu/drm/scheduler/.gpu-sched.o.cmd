@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/scheduler/gpu-sched.o := loongarch64-linux-gnu-ld -m elf64loongarch   -r -o drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/sched_main.o drivers/gpu/drm/scheduler/sched_fence.o drivers/gpu/drm/scheduler/sched_entity.o 

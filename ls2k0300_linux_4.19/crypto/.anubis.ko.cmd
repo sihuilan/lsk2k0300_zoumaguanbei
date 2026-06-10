@@ -1,1 +1,0 @@
-cmd_crypto/anubis.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/anubis.ko crypto/anubis.o crypto/anubis.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/anubis.ko

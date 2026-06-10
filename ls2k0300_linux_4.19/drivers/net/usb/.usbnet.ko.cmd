@@ -1,1 +1,0 @@
-cmd_drivers/net/usb/usbnet.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/net/usb/usbnet.ko drivers/net/usb/usbnet.o drivers/net/usb/usbnet.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/net/usb/usbnet.ko

@@ -1,1 +1,0 @@
-cmd_drivers/misc/eeprom/at24.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/misc/eeprom/at24.ko drivers/misc/eeprom/at24.o drivers/misc/eeprom/at24.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/misc/eeprom/at24.ko

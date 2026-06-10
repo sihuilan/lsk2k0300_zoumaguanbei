@@ -1,1 +1,0 @@
-cmd_crypto/tea.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/tea.ko crypto/tea.o crypto/tea.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/tea.ko

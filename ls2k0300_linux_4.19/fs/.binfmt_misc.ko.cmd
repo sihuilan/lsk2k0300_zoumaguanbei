@@ -1,1 +1,0 @@
-cmd_fs/binfmt_misc.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o fs/binfmt_misc.ko fs/binfmt_misc.o fs/binfmt_misc.mod.o ;  make -f ./arch/loongarch/Makefile.postlink fs/binfmt_misc.ko

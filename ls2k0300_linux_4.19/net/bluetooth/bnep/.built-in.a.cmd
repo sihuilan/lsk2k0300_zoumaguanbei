@@ -1,1 +1,0 @@
-cmd_net/bluetooth/bnep/built-in.a := rm -f net/bluetooth/bnep/built-in.a; loongarch64-linux-gnu-ar rcSTPD net/bluetooth/bnep/built-in.a net/bluetooth/bnep/core.o net/bluetooth/bnep/sock.o net/bluetooth/bnep/netdev.o

@@ -1,1 +1,0 @@
-cmd_drivers/firmware/efi/efivars.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/firmware/efi/efivars.ko drivers/firmware/efi/efivars.o drivers/firmware/efi/efivars.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/firmware/efi/efivars.ko

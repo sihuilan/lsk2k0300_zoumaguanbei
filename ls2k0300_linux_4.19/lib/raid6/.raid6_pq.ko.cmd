@@ -1,1 +1,0 @@
-cmd_lib/raid6/raid6_pq.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o lib/raid6/raid6_pq.ko lib/raid6/raid6_pq.o lib/raid6/raid6_pq.mod.o ;  make -f ./arch/loongarch/Makefile.postlink lib/raid6/raid6_pq.ko

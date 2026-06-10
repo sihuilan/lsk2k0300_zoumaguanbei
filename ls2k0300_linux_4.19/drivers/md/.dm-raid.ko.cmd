@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-raid.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/md/dm-raid.ko drivers/md/dm-raid.o drivers/md/dm-raid.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/md/dm-raid.ko

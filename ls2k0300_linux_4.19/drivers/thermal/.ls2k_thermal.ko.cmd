@@ -1,1 +1,0 @@
-cmd_drivers/thermal/ls2k_thermal.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/thermal/ls2k_thermal.ko drivers/thermal/ls2k_thermal.o drivers/thermal/ls2k_thermal.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/thermal/ls2k_thermal.ko

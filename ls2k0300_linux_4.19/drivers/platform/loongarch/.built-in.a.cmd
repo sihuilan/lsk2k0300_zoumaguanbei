@@ -1,1 +1,0 @@
-cmd_drivers/platform/loongarch/built-in.a := rm -f drivers/platform/loongarch/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/platform/loongarch/built-in.a drivers/platform/loongarch/cpu_hwmon.o drivers/platform/loongarch/loongson_generic_laptop.o

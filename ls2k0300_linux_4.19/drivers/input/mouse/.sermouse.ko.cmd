@@ -1,1 +1,0 @@
-cmd_drivers/input/mouse/sermouse.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/input/mouse/sermouse.ko drivers/input/mouse/sermouse.o drivers/input/mouse/sermouse.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/input/mouse/sermouse.ko

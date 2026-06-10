@@ -1,1 +1,0 @@
-cmd_crypto/serpent_generic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/serpent_generic.ko crypto/serpent_generic.o crypto/serpent_generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/serpent_generic.ko

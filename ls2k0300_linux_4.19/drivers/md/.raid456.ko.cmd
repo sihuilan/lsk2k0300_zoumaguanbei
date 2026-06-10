@@ -1,1 +1,0 @@
-cmd_drivers/md/raid456.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/md/raid456.ko drivers/md/raid456.o drivers/md/raid456.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/md/raid456.ko

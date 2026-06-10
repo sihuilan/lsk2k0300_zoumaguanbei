@@ -1,1 +1,0 @@
-cmd_sound/hda/snd-hda-core.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o sound/hda/snd-hda-core.ko sound/hda/snd-hda-core.o sound/hda/snd-hda-core.mod.o ;  make -f ./arch/loongarch/Makefile.postlink sound/hda/snd-hda-core.ko

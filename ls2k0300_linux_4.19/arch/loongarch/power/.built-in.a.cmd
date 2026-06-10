@@ -1,1 +1,0 @@
-cmd_arch/loongarch/power/built-in.a := rm -f arch/loongarch/power/built-in.a; loongarch64-linux-gnu-ar rcSTPD arch/loongarch/power/built-in.a arch/loongarch/power/suspend.o arch/loongarch/power/suspend_asm.o arch/loongarch/power/cpu.o arch/loongarch/power/hibernate.o arch/loongarch/power/hibernate_asm.o

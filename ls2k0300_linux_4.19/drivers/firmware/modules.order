@@ -1,3 +1,0 @@
-kernel/drivers/firmware/efi/efivars.ko
-kernel/drivers/firmware/efi/test/efi_test.ko
-kernel/drivers/firmware/efi/capsule-loader.ko

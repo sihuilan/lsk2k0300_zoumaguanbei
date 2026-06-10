@@ -1,1 +1,0 @@
-cmd_drivers/staging/built-in.a := rm -f drivers/staging/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/staging/built-in.a drivers/staging/media/built-in.a drivers/staging/iio/built-in.a drivers/staging/fbtft/built-in.a
