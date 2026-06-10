@@ -1,3 +1,0 @@
-/home/lin/桌面/21./八领域版控制代码/project123/out/CMakeFiles/project123.dir
-/home/lin/桌面/21./八领域版控制代码/project123/out/CMakeFiles/edit_cache.dir
-/home/lin/桌面/21./八领域版控制代码/project123/out/CMakeFiles/rebuild_cache.dir
