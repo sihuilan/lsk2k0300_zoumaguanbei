@@ -1,3 +1,0 @@
-/home/lin/桌面/21./LOOK-TABLET/project/out/CMakeFiles/project.dir
-/home/lin/桌面/21./LOOK-TABLET/project/out/CMakeFiles/edit_cache.dir
-/home/lin/桌面/21./LOOK-TABLET/project/out/CMakeFiles/rebuild_cache.dir
