@@ -1,3 +1,0 @@
-/home/lin/桌面/21./shl/project000/out/CMakeFiles/project000.dir
-/home/lin/桌面/21./shl/project000/out/CMakeFiles/edit_cache.dir
-/home/lin/桌面/21./shl/project000/out/CMakeFiles/rebuild_cache.dir
