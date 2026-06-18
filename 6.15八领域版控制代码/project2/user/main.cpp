@@ -34,12 +34,12 @@ void pit_callback()
     //     printf("dis= %f\n",CarInfo.distance);
     //     }     
     //clock_t clock_start = clock();   
-    Speed_Get();                        //读取编码器        
-    Speed_Control();                    //速度控制   
+   // Speed_Get();                        //读取编码器        
+   // Speed_Control();                    //速度控制   
     Mottor_Control();                   //电机控制     
-    // brushless_motor_control();              //无刷电调控制
+     brushless_motor_control();              //无刷电调控制
     // pthread_mutex_lock(&mutex);
-    Attitude_Geting();                      //陀螺仪姿态获取
+    //Attitude_Geting();                      //陀螺仪姿态获取
     // pthread_mutex_unlock(&mutex);
            
     //clock_t clock_end = clock();
@@ -82,46 +82,46 @@ int main(int, char**) {
     //  推理初始化
     while (true)
     { 
-        if(wait_image_refresh() < 0)
-        {
-            pit_ms_deinit();
-            cleanup();
-            printf("wait_image_refresh error!\n");
-            exit(0);
-        }
+        // if(wait_image_refresh() < 0)
+        // {
+        //     pit_ms_deinit();
+        //     cleanup();
+        //     printf("wait_image_refresh error!\n");
+        //     exit(0);
+        // }
 
 
-        pthread_mutex_lock(&mutex); 
-        image_process();
-        pthread_mutex_unlock(&mutex); 
+        // pthread_mutex_lock(&mutex); 
+        // image_process();
+        // pthread_mutex_unlock(&mutex); 
        
-        if( Start_Flag == true)        
-        { 
-       // clock_t clock_start = clock();
+    //     if( Start_Flag == true)        
+    //     { 
+    //    // clock_t clock_start = clock();
 
-        AI_check();                       //图像识别 
-      //  clock_t clock_end = clock();   
-       // printf("timesue: %ld us\n", clock_end - clock_start);
-        }
+    //     AI_check();                       //图像识别 
+    //   //  clock_t clock_end = clock();   
+    //    // printf("timesue: %ld us\n", clock_end - clock_start);
+    //     }
         
         // LoseLineProtect();
-        Protect(Bmp[0], 6);  //停车保护 
+        //Protect(Bmp[0], 6);  //停车保护 
 
-        if( Start_Flag == true)        
-        {
-        Check_Circle();
-        Cross_check();
-        imageDirectionPID();                 //转向控制      
-        }
+        // if( Start_Flag == true)        
+        // {
+        // Check_Circle();
+        // Cross_check();
+        // imageDirectionPID();                 //转向控制      
+        // }
     //     //if(!Start_Flag)
     //    // {
     //     //    Voltage_Get();
     //     //}
-        Key_Scan();  
-         if(   !Start_Flag &&!Start && !IsGyroOffsetReset)//
-         {
-            IPS200_display();
-        }
+       // Key_Scan();  
+        //  if(   !Start_Flag &&!Start && !IsGyroOffsetReset)//
+        //  {
+        //     IPS200_display();
+        // }
         // printf("timesue: %ld us\n", clock_end - clock_start);
     }
 
