@@ -1,0 +1,1 @@
+cmd_arch/loongarch/boot/compressed/vmlinux.bin.z := (cat arch/loongarch/boot/compressed/vmlinux.bin | lzma -9 && printf \\130\\265\\045\\001) > arch/loongarch/boot/compressed/vmlinux.bin.z || (rm -f arch/loongarch/boot/compressed/vmlinux.bin.z ; false)
