@@ -7,8 +7,8 @@
 
 #define UVC_WIDTH   320
 #define UVC_HEIGHT  240
-#define UVC_FPS     120
-#define CROP_H      75
+#define UVC_FPS     100
+#define CROP_H      80
 #define CROP_W      180  //祖传120 迷宫法94
 
 // #define CROP_H      40

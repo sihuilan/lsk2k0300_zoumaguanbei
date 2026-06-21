@@ -14,12 +14,12 @@ enum imu_dev_enum
 	DEV_ICM20602 = 0x13,
 };
 
-enum path_index
+enum path_index 
 {
 	ACC_X_RAW,
 	ACC_Y_RAW,
 	ACC_Z_RAW,
-
+	
 	GYRO_X_RAW,
 	GYRO_Y_RAW,
 	GYRO_Z_RAW,
@@ -27,8 +27,6 @@ enum path_index
 	MAG_X_RAW,
 	MAG_Y_RAW,
 	MAG_Z_RAW,
-
-	PATH_COUNT
 };
 
 
@@ -42,8 +40,6 @@ extern uint8 imu_type;
 
 void imu_get_dev_info();
 int16 imu_get_raw(const char *path);
-void imu_fast_init(void);
-int16 imu_get_raw_fast(int idx);
 
 
 #endif
