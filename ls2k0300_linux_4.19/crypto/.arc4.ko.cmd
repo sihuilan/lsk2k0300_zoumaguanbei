@@ -1,0 +1,1 @@
+cmd_crypto/arc4.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/arc4.ko crypto/arc4.o crypto/arc4.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/arc4.ko

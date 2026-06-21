@@ -1,0 +1,1 @@
+cmd_drivers/clk/built-in.a := rm -f drivers/clk/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/clk/built-in.a drivers/clk/actions/built-in.a drivers/clk/bcm/built-in.a drivers/clk/imgtec/built-in.a drivers/clk/mediatek/built-in.a drivers/clk/mvebu/built-in.a drivers/clk/renesas/built-in.a drivers/clk/ti/built-in.a

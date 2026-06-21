@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.a := rm -f drivers/input/touchscreen/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/input/touchscreen/built-in.a drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/gt9xx.o drivers/input/touchscreen/gt9xx_update.o drivers/input/touchscreen/goodix_tool.o

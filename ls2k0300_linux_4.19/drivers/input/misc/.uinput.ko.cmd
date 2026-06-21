@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/uinput.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/input/misc/uinput.ko

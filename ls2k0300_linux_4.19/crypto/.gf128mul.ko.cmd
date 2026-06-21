@@ -1,0 +1,1 @@
+cmd_crypto/gf128mul.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/gf128mul.ko crypto/gf128mul.o crypto/gf128mul.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/gf128mul.ko

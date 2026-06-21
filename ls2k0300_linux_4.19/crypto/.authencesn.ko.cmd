@@ -1,0 +1,1 @@
+cmd_crypto/authencesn.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/authencesn.ko crypto/authencesn.o crypto/authencesn.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/authencesn.ko

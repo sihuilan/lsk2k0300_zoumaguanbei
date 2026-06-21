@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/pwrseq_simple.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/mmc/core/pwrseq_simple.ko drivers/mmc/core/pwrseq_simple.o drivers/mmc/core/pwrseq_simple.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/mmc/core/pwrseq_simple.ko

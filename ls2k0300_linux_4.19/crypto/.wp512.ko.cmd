@@ -1,0 +1,1 @@
+cmd_crypto/wp512.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/wp512.ko crypto/wp512.o crypto/wp512.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/wp512.ko

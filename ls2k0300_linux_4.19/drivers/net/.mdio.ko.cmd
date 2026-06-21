@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/net/mdio.ko drivers/net/mdio.o drivers/net/mdio.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/net/mdio.ko

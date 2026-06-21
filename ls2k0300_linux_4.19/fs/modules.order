@@ -1,0 +1,4 @@
+kernel/fs/binfmt_misc.ko
+kernel/fs/fat/fat.ko
+kernel/fs/fat/vfat.ko
+kernel/fs/isofs/isofs.ko

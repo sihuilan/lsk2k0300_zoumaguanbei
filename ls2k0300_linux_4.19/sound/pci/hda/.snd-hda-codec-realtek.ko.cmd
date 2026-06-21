@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec-realtek.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o sound/pci/hda/snd-hda-codec-realtek.ko sound/pci/hda/snd-hda-codec-realtek.o sound/pci/hda/snd-hda-codec-realtek.mod.o ;  make -f ./arch/loongarch/Makefile.postlink sound/pci/hda/snd-hda-codec-realtek.ko

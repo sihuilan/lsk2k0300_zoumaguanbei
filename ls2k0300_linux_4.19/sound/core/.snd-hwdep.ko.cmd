@@ -1,0 +1,1 @@
+cmd_sound/core/snd-hwdep.ko := loongarch64-linux-gnu-ld -r  -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o sound/core/snd-hwdep.ko sound/core/snd-hwdep.o sound/core/snd-hwdep.mod.o ;  make -f ./arch/loongarch/Makefile.postlink sound/core/snd-hwdep.ko

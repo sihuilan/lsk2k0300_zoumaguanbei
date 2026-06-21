@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/async_pq.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/async_tx/async_pq.ko crypto/async_tx/async_pq.o crypto/async_tx/async_pq.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/async_tx/async_pq.ko

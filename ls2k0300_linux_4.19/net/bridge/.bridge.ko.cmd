@@ -1,0 +1,1 @@
+cmd_net/bridge/bridge.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o net/bridge/bridge.ko net/bridge/bridge.o net/bridge/bridge.mod.o ;  make -f ./arch/loongarch/Makefile.postlink net/bridge/bridge.ko

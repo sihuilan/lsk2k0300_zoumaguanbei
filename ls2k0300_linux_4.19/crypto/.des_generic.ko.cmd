@@ -1,0 +1,1 @@
+cmd_crypto/des_generic.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/des_generic.ko crypto/des_generic.o crypto/des_generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/des_generic.ko

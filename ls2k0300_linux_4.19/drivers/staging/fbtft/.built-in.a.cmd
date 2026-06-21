@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/built-in.a := rm -f drivers/staging/fbtft/built-in.a; loongarch64-linux-gnu-ar rcSTPD drivers/staging/fbtft/built-in.a drivers/staging/fbtft/fbtft-core.o drivers/staging/fbtft/fbtft-sysfs.o drivers/staging/fbtft/fbtft-bus.o drivers/staging/fbtft/fbtft-io.o drivers/staging/fbtft/fb_st7735r.o drivers/staging/fbtft/fb_st7789v.o

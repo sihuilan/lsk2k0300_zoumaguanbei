@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/ast/ast.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/gpu/drm/ast/ast.ko drivers/gpu/drm/ast/ast.o drivers/gpu/drm/ast/ast.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/gpu/drm/ast/ast.ko

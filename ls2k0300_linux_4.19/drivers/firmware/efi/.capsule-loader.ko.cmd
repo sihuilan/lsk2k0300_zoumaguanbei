@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/capsule-loader.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o drivers/firmware/efi/capsule-loader.ko drivers/firmware/efi/capsule-loader.o drivers/firmware/efi/capsule-loader.mod.o ;  make -f ./arch/loongarch/Makefile.postlink drivers/firmware/efi/capsule-loader.ko

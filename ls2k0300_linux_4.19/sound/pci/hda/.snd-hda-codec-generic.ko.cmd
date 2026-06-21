@@ -1,0 +1,1 @@
+cmd_sound/pci/hda/snd-hda-codec-generic.ko := loongarch64-linux-gnu-ld -r  -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o sound/pci/hda/snd-hda-codec-generic.ko sound/pci/hda/snd-hda-codec-generic.o sound/pci/hda/snd-hda-codec-generic.mod.o ;  make -f ./arch/loongarch/Makefile.postlink sound/pci/hda/snd-hda-codec-generic.ko

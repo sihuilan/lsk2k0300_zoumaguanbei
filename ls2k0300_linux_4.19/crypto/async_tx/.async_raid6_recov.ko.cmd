@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/async_raid6_recov.ko := loongarch64-linux-gnu-ld -r -m elf64loongarch -T ./scripts/module-common.lds -T ./arch/loongarch/kernel/module.lds  --build-id  -o crypto/async_tx/async_raid6_recov.ko crypto/async_tx/async_raid6_recov.o crypto/async_tx/async_raid6_recov.mod.o ;  make -f ./arch/loongarch/Makefile.postlink crypto/async_tx/async_raid6_recov.ko
