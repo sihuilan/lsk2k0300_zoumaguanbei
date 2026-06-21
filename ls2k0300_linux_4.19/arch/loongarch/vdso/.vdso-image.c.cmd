@@ -1,1 +1,0 @@
-cmd_arch/loongarch/vdso/vdso-image.c := 	cp arch/loongarch/vdso/vdso.so.dbg.raw arch/loongarch/vdso/vdso.so.dbg && cp arch/loongarch/vdso/vdso.so.raw arch/loongarch/vdso/vdso.so && arch/loongarch/vdso/genvdso arch/loongarch/vdso/vdso.so.dbg arch/loongarch/vdso/vdso.so arch/loongarch/vdso/vdso-image.c 
