@@ -167,9 +167,12 @@ bool LQ_NCNN::InferWithConfidence(const cv::Mat& bgr_image, int& class_id, float
     cv::Mat resized;
     cv::resize(bgr_image, resized, cv::Size(m_input_width, m_input_height));
     
-    // 输入 NCNN
-    // 在 InferWithConfidence 函数里修改第 276 行：
-ncnn::Mat input = ncnn::Mat::from_pixels(resized.data, ncnn::Mat::PIXEL_BGR2RGB, m_input_width, m_input_height);
+    ncnn::Mat input = ncnn::Mat::from_pixels(
+        resized.data, 
+        ncnn::Mat::PIXEL_BGR2RGB, 
+        m_input_width, 
+        m_input_height
+    );
     input.substract_mean_normalize(m_mean_vals, m_norm_vals);
 
     // 2. 推理
@@ -178,25 +181,19 @@ ncnn::Mat input = ncnn::Mat::from_pixels(resized.data, ncnn::Mat::PIXEL_BGR2RGB,
     ncnn::Mat logits;
     ex.extract(m_output_name.c_str(), logits);
 
-//     // ================= [调试打印位置] =================
-//     // 在这里打印原始值，看看是 0~1 (Softmax后) 还是几百几千 (数值溢出)
-//     printf("--- NCNN Raw Output --- ");
-//     for (int i = 0; i < logits.w; i++) {
-//         printf("[%d]: %.4f ", i, logits[i]);
-//     }
-//     printf("\n");
-//    // ===============================================
-
-    // 3. 计算 Softmax (将 Logits 转换为 0-1 概率)
-    int num_classes = logits.w;
-    float max_logit = -FLT_MAX;
+    // 3. 计算 Softmax —— 静态数组，避免动态分配
+    const int MAX_CLASSES = 16;
+    static float scores[MAX_CLASSES];
     
+    int num_classes = logits.w;
+    if (num_classes > MAX_CLASSES) num_classes = MAX_CLASSES;
+
+    float max_logit = -FLT_MAX;
     for (int i = 0; i < num_classes; i++) {
         if (logits[i] > max_logit) max_logit = logits[i];
     }
 
     float sum = 0.0f;
-    std::vector<float> scores(num_classes);
     for (int i = 0; i < num_classes; i++) {
         scores[i] = exp(logits[i] - max_logit); 
         sum += scores[i];
@@ -213,5 +210,5 @@ ncnn::Mat input = ncnn::Mat::from_pixels(resized.data, ncnn::Mat::PIXEL_BGR2RGB,
     }
     
     confidence = max_score; 
-    return true; // 确保 return 在最后
+    return true;
 }

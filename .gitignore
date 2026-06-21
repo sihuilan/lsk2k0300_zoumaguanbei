@@ -1,0 +1,203 @@
+# ==================== 编译产物 / Build ====================
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.lst
+*.d
+*.d.*
+
+# ==================== CMake ====================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+!CMakeLists.txt
+out/
+build/
+cmake-build-*/
+build-*/
+
+# ==================== IDE / 编辑器 ====================
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.userosscache
+*.userprefs
+*.user
+*.opensdf
+*.sdf
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Eclipse / SEGGER Embedded Studio
+.cproject
+.project
+.settings/
+DebugConfig/
+*.launch
+
+# Qt Creator
+*.pro.user
+*.qbs.user
+
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.scvd
+JLinkLog.txt
+*.iex
+
+# IAR Embedded Workbench
+Debug/
+Release/
+settings/
+*.ewd
+*.ewp
+*.ewt
+*.eww
+*.dep
+
+# ==================== 操作系统 ====================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# ==================== 编辑器备份 ====================
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.tmp
+*.temp
+*.log
+
+# Vim
+[._]*.un~
+
+# Emacs
+\#*\#
+.\#*
+
+# ==================== 压缩包 ====================
+*.7z
+*.bz2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xz
+*.zip
+*.zst
+
+# ==================== 依赖 / 库 / 工具链 ====================
+# ncnn (如不需要提交预编译库)
+# libraries/zf_components/ncnn/lib/*.a
+
+# 工具链路径中的本地文件
+toolchain/
+toolchains/
+
+# ==================== 临时 / 数据 ====================
+*.dat
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.mp4
+*.avi
+# 如需保留图片数据，取消下面注释
+# !data/**/*.png
+
+# ==================== 环境 / 配置（敏感信息） ====================
+.env
+.env.*
+*.secret
+secrets.*
+
+# ==================== 文档（按需忽略） ====================
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# ==================== 其他 ====================
+# Core dumps
+core
+core.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Doxygen
+docs/html/
+docs/latex/
+
+# ccls / clangd
+.ccls-cache/
+.cache/
+compile_commands.json
