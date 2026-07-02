@@ -1,4 +1,4 @@
-cmd_drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.o := loongarch64-linux-gnu-gcc -Wno-missing-field-initializers -O2 -Wl,-z,relro -z,now -Wl,-z,-Wstramplines,noexecstack -fPIC -D_FORTIFY_SOURCE=2 -fno-strict-aliasing -Wall -W -Wextra -Wno-unused-label -Wno-unused-function -Wno-pointer-sign -Wno-unused-parameter -Wno-missing-braces -Wno-deprecated-declarations -Werror -Wno-sign-compare -Wp,-MD,drivers/gpu/drm/mwv206/mwv206linuxdev/.mwv206_fb.o.d -nostdinc -isystem /opt/ls_2k0300_env/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/include -I./arch/loongarch/include -I./arch/loongarch/include/generated  -I./include -I./arch/loongarch/include/uapi -I./arch/loongarch/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DVMLINUX_LOAD_ADDRESS=0x9000000000200000 -DDATAOFFSET=0 -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Werror=return-type -Wno-format-security -std=gnu89 -fno-PIE -mno-check-zero-division -mabi=lp64 -G0 -pipe -msoft-float -DGAS_HAS_SET_HARDFLOAT -Wa,-msoft-float -ffreestanding -ULOONGARCHEB -U_LOONGARCHEB -U__LOONGARCHEB -U__LOONGARCHEB__ -ULOONGARCHEL -U_LOONGARCHEL -U__LOONGARCHEL -U__LOONGARCHEL__ -DLOONGARCHEL -D_LOONGARCHEL -D__LOONGARCHEL -D__LOONGARCHEL__ -U_LOONGARCH_ISA -D_LOONGARCH_ISA=_LOONGARCH_ISA_LOONGARCH64 -I./arch/loongarch/include/asm/mach-la64 -I./arch/loongarch/include/asm/mach-generic -fno-asynchronous-unwind-tables -mstrict-align -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-var-tracking-assignments -fpatchable-function-entry=2 -Wdeclaration-after-statement -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -Wno-packed-not-aligned -Wno-sizeof-pointer-memaccess -D__MWV206_SYSLIBPATH__="\"\"" -I/home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206 -I/home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include -I/home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206linuxdev -I/home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal -DSUPPORT_SND_PCM  -DMODULE -fplt -Wa,-mla-global-with-abs,-mla-local-with-abs  -DKBUILD_BASENAME='"mwv206_fb"' -DKBUILD_MODNAME='"mwv206"' -c -o drivers/gpu/drm/mwv206/mwv206linuxdev/.tmp_mwv206_fb.o drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.c
+cmd_drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.o := loongarch64-linux-gnu-gcc -Wno-missing-field-initializers -O2 -Wl,-z,relro -z,now -Wl,-z,-Wstramplines,noexecstack -fPIC -D_FORTIFY_SOURCE=2 -fno-strict-aliasing -Wall -W -Wextra -Wno-unused-label -Wno-unused-function -Wno-pointer-sign -Wno-unused-parameter -Wno-missing-braces -Wno-deprecated-declarations -Werror -Wno-sign-compare -Wp,-MD,drivers/gpu/drm/mwv206/mwv206linuxdev/.mwv206_fb.o.d -nostdinc -isystem /opt/ls_2k0300_env/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/include -I./arch/loongarch/include -I./arch/loongarch/include/generated  -I./include -I./arch/loongarch/include/uapi -I./arch/loongarch/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DVMLINUX_LOAD_ADDRESS=0x9000000000200000 -DDATAOFFSET=0 -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -Werror-implicit-function-declaration -Werror=return-type -Wno-format-security -std=gnu89 -fno-PIE -mno-check-zero-division -mabi=lp64 -G0 -pipe -msoft-float -DGAS_HAS_SET_HARDFLOAT -Wa,-msoft-float -ffreestanding -ULOONGARCHEB -U_LOONGARCHEB -U__LOONGARCHEB -U__LOONGARCHEB__ -ULOONGARCHEL -U_LOONGARCHEL -U__LOONGARCHEL -U__LOONGARCHEL__ -DLOONGARCHEL -D_LOONGARCHEL -D__LOONGARCHEL -D__LOONGARCHEL__ -U_LOONGARCH_ISA -D_LOONGARCH_ISA=_LOONGARCH_ISA_LOONGARCH64 -I./arch/loongarch/include/asm/mach-la64 -I./arch/loongarch/include/asm/mach-generic -fno-asynchronous-unwind-tables -mstrict-align -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-var-tracking-assignments -fpatchable-function-entry=2 -Wdeclaration-after-statement -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -Wno-packed-not-aligned -Wno-sizeof-pointer-memaccess -D__MWV206_SYSLIBPATH__="\"\"" -I/home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206 -I/home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include -I/home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206linuxdev -I/home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal -DSUPPORT_SND_PCM  -DMODULE -fplt -Wa,-mla-global-with-abs,-mla-local-with-abs  -DKBUILD_BASENAME='"mwv206_fb"' -DKBUILD_MODNAME='"mwv206"' -c -o drivers/gpu/drm/mwv206/mwv206linuxdev/.tmp_mwv206_fb.o drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.c
 
 source_drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.o := drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.c
 
@@ -879,7 +879,7 @@ deps_drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.o := \
     $(wildcard include/config/backlight/class/device.h) \
   include/linux/delay.h \
   arch/loongarch/include/asm/delay.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206dev.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206dev.h \
   include/linux/module.h \
     $(wildcard include/config/modules/tree/lookup.h) \
     $(wildcard include/config/module/sig.h) \
@@ -916,28 +916,28 @@ deps_drivers/gpu/drm/mwv206/mwv206linuxdev/mwv206_fb.o := \
   include/linux/i2c-algo-bit.h \
   include/linux/dmi.h \
     $(wildcard include/config/dmi.h) \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206addrlist.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206dev.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206kdebug.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206oshal.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/gljos.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kconfig.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kdevconfig.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206memmgr.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206ioctl.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kdevconfig.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206reg.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/jmiic.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/jmspi.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/gljos_kernel.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206addrlist.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206dev.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206kdebug.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206oshal.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/gljos.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kconfig.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kdevconfig.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/mwv206memmgr.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206ioctl.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206kdevconfig.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206reg.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/jmiic.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/jmspi.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/gljos_kernel.h \
   drivers/gpu/drm/mwv206/mwv206linuxdev/common.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206displaymode.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/cputype.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206displaymode.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/mwv206hal/cputype.h \
   arch/loongarch/include/asm/syscall.h \
   include/uapi/linux/audit.h \
-  /home/lin/桌面/20th-extreme-optoelectronics1/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206_fb_interpret_edid.h \
+  /home/seekfree/Desktop/walk-horse-see-tablet/ls2k0300_linux_4.19/drivers/gpu/drm/mwv206/include/mwv206_fb_interpret_edid.h \
   include/drm/drmP.h \
   include/linux/agp_backend.h \
   include/linux/cdev.h \
