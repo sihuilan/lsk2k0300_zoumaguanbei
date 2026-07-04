@@ -1,3 +1,0 @@
-/home/lin/桌面/21./已改flash加绕行/project0/out/CMakeFiles/project0.dir
-/home/lin/桌面/21./已改flash加绕行/project0/out/CMakeFiles/edit_cache.dir
-/home/lin/桌面/21./已改flash加绕行/project0/out/CMakeFiles/rebuild_cache.dir
