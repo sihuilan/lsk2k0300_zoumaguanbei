@@ -1461,7 +1461,7 @@
         spi-cpol;
         spi-cpha;
         rgb;
-        rotate = <180>;
+        rotate = <0>;
         buswidth = <8>;
         fps = <30>;
 

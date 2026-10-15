@@ -273,7 +273,7 @@
         spi-cpol;
         spi-cpha;
         rgb;
-        rotate = <180>;           // 旋转方向 0 90 180 270
+        rotate = <0>;           // 旋转方向 0 90 180 270
         buswidth = <8>;
         fps = <30>;             // 帧率
         

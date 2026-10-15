@@ -8,6 +8,6 @@ export CROSS_COMPILE=loongarch64-linux-gnu-
 
 make -j12
 
-scp -O -r vmlinuz root@192.168.43.218:/boot
+scp -O -r vmlinuz root@192.168.43.85:/boot
 
 sync
